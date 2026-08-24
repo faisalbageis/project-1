@@ -124,9 +124,9 @@ public static void singlePlayer(Scanner scanner){
                 return "computer ";
             }
 
-            if (bord[0][2] == playerMark && bord[1][1] == playerMark && bord[3][0] == playerMark) {
+            if (bord[0][2] == playerMark && bord[1][1] == playerMark && bord[2][0] == playerMark) {
                 return "player";
-            } else if (bord[0][2] == compMark && bord[1][1] == compMark && bord[3][0] == compMark) {
+            } else if (bord[0][2] == compMark && bord[1][1] == compMark && bord[2][0] == compMark) {
                 return "computer";
             }
         }catch (ArrayIndexOutOfBoundsException e){
